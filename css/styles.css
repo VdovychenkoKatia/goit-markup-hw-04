@@ -302,7 +302,7 @@ button {
 
 /*our team*/
 .studio-card-icons {
-  background: var(--basic-logo-color);
+  
 }
 
 .studio-card-icons-item {
@@ -312,6 +312,21 @@ button {
 .studio-card-icons-list {
   display: flex;
   gap: 24px;
+}
+
+.studio-card-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: var(--basic-logo-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.studio-card-link:hover,
+.studio-card-link:focus {
+  background-color: var(--hover-color);
 }
 
 .our-team-section {
