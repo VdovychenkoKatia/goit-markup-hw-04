@@ -302,7 +302,7 @@ button {
 
 /*our team*/
 .studio-card-icons {
-  
+  background: var(--basic-logo-color);
 }
 
 .studio-card-icons-item {
