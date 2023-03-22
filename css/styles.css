@@ -301,6 +301,19 @@ button {
 }
 
 /*our team*/
+.studio-card-icons {
+  
+}
+
+.studio-card-icons-item {
+
+}
+
+.studio-card-icons-list {
+  display: flex;
+  gap: 24px;
+}
+
 .our-team-section {
   background: var(--f-color-logo);
   padding-top: 120px;
