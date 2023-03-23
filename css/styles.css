@@ -8,6 +8,7 @@
   --footer-color-text: #e7e9fc;
   --background-color: #f4f4fd;
   --footer-icons: #31d0aa;
+  --customers-border: #8E8F99;
 }
 
 body {
@@ -473,9 +474,16 @@ button {
   padding: 120px 0;
 }
 
-.custumers-container {
+.custumers-list {
   display: flex;
   justify-content: space-between;
+}
+
+.customers-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--customers-border);
+  border-radius: 4px;
 }
 
 /*==============================FOOTER==============================*/
