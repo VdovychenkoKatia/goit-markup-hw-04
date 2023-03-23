@@ -16,9 +16,6 @@ body {
   margin: 0;
 }
 
-/* main {
-  width: 100%;
-} */
 
 .visually-hidden {
   position: absolute;
@@ -67,6 +64,10 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+
+ul li {
+  list-style: none;
 }
 
 img {
@@ -465,6 +466,13 @@ button {
   background: var(--white-color);
   width: calc((100% - 48px) / 3);
 }
+/*==============================CUSTOMERS==============================*/
+
+.customers {
+  background: var(--white-color);
+  padding: 120px 0;
+}
+
 
 /*==============================FOOTER==============================*/
 
