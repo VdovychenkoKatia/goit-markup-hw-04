@@ -13,7 +13,12 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-color-text);
+  margin: 0;
 }
+
+/* main {
+  width: 100%;
+} */
 
 .visually-hidden {
   position: absolute;
@@ -479,14 +484,12 @@ button {
 
 .footer-container {
   max-width: 264px;
-  /*margin-right: 120px;*/
 }
 
 .footer-inner {
   display: flex;
   justify-content: start;
   gap: 120px;
-  
 }
 
 /*icons*/
@@ -501,7 +504,6 @@ button {
 
 .footer-icons-container {
   max-width: 208px;
-  /* margin-left: 540px; */
 }
 
 .footer-link {
