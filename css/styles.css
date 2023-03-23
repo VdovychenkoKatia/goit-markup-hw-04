@@ -473,6 +473,10 @@ button {
   padding: 120px 0;
 }
 
+.custumers-container {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*==============================FOOTER==============================*/
 
