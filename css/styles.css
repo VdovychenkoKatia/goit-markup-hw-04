@@ -314,6 +314,7 @@ button {
   justify-content: center;
   display: flex;
   gap: 24px;
+  padding-top: 8px;
 }
 
 .studio-card-link {
@@ -478,7 +479,14 @@ button {
 
 .footer-container {
   max-width: 264px;
-  margin-right: 120px;
+  /*margin-right: 120px;*/
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: start;
+  gap: 120px;
+  
 }
 
 /*icons*/
@@ -493,7 +501,7 @@ button {
 
 .footer-icons-container {
   max-width: 208px;
-  margin-left: 540px;
+  /* margin-left: 540px; */
 }
 
 .footer-link {
