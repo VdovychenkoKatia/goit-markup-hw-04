@@ -7,7 +7,7 @@
   --f-color-logo: #f4f4fd;
   --footer-color-text: #e7e9fc;
   --background-color: #f4f4fd;
-  --footer-icons: #31D0AA;
+  --footer-icons: #31d0aa;
 }
 
 body {
@@ -303,11 +303,9 @@ button {
 
 /*our team*/
 .studio-card-icons {
-  
 }
 
 .studio-card-icons-item {
-
 }
 
 .studio-card-icons-list {
@@ -488,6 +486,11 @@ button {
   letter-spacing: 0.02em;
   color: var(--white-color);
   margin-bottom: 16px;
+}
+
+.footer-icons-container {
+  max-width: 208px;
+  margin-left: 540px;
 }
 
 .footer-link {
