@@ -484,6 +484,9 @@ button {
   height: 88px;
   border: 1px solid var(--customers-border);
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*==============================FOOTER==============================*/
