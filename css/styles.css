@@ -7,6 +7,7 @@
   --f-color-logo: #f4f4fd;
   --footer-color-text: #e7e9fc;
   --background-color: #f4f4fd;
+  --footer-icons: #31D0AA;
 }
 
 body {
@@ -463,13 +464,11 @@ button {
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
-
   background: var(--title-color);
 }
 
 .footer-text {
   margin-top: 16px;
-
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -478,4 +477,35 @@ button {
 
 .footer-container {
   max-width: 264px;
+  margin-right: 120px;
+}
+
+/*icons*/
+.footer-tittle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  margin-bottom: 16px;
+}
+
+.footer-link {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--footer-icons);
+}
+
+.footer-icons-list {
+  display: flex;
+  gap: 16px;
 }
